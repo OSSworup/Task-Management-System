@@ -37,7 +37,7 @@ A web-based application that allows users to create, update, and manage tasks. E
 ### Installation
 1. Clone the repository:
     ```
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/OSSworup/Task-Management-System
     ```
    
 2. Navigate to the project directory:
