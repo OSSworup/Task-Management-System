@@ -42,7 +42,7 @@ A web-based application that allows users to create, update, and manage tasks. E
    
 2. Navigate to the project directory:
    ```
-   cd your-repo-name
+   cd Task Management System
    ```
 3. Install dependencies:
   "dependencies": {
