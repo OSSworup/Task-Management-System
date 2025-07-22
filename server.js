@@ -15,7 +15,7 @@ require('dotenv').config();
 const PORT=process.env.PORT;
 
 app.get('/',(req,res)=>{
-    res.send('So this is a task management system now');
+    res.send('Task management system');
 });
 
 const userRoute=require('./routes/userRoute');
