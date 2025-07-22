@@ -2,6 +2,13 @@ const express=require('express');
 const app=express();
 const db=require('./db');
 const bodyParser=require('body-parser');
+const cors=require('cors');
+
+app.use(cors({
+    origin: 'http://localhost:5173', 
+  credentials: true 
+}))
+
 app.use(bodyParser.json());
 
 require('dotenv').config();
